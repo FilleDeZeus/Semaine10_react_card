@@ -1,0 +1,23 @@
+.recherche {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.recherche div {
+    background-color: #fff;
+    padding: 25px;
+    width: 300px;
+    color: green;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.32);
+
+}
+
+.recherche div input {
+    width: 97%;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-top: 15px;
+}
