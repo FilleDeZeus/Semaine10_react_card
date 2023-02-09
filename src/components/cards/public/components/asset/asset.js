@@ -47,7 +47,7 @@ export const Asset = () => {
             <h2>Cocktails</h2>
             <div>
                 {cards.map((onecard) => (
-                    <Cards  nom={onecard.nom} verre={onecard.verre} alcool={alcool} image={onecard.src} />  
+                    <Cards image={onecard.src} nom={onecard.nom} verre={onecard.verre} alcool={alcool} />  
                 ))}
             </div>
         </div>

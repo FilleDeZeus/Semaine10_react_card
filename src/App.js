@@ -5,12 +5,15 @@ import { Recherche } from './components/recherche/recherche';
 import {Asset} from './components/cards/public/components/asset/asset.js'
 
 export const App = () => {
-  
+  const [mode] = React.useState(false);
+
+  const change = mode ? "light" : "dark";
+
   return (
-    <div className="App">
+    <div className={change} >
       <Header/>
       <Recherche/>
-      <Asset/>
+      <Asset />
     </div>
   );
 }

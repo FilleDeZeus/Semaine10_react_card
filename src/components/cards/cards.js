@@ -1,7 +1,7 @@
 import React from 'react'
 import './public/css/cards.css'
 
-export const Cards = ({nom,verre,image,alcool,}) => {
+export const Cards = ({nom,verre,image,alcool}) => {
 
   return (
     <div className="card">
